@@ -65,27 +65,27 @@ a {
 col1, col2, col3 = st.columns([1,2,1])
 
 with col1:
-    st.image("deco.png", width=200)
+    st.image("deco.png", width=220)
 
 with col2:
     st.markdown("<div class='title'>PORTAFOLIO DE APPS</div>", unsafe_allow_html=True)
     st.markdown("<div class='subtitle'>Interfaces Multimodales<br>2026-1</div>", unsafe_allow_html=True)
 
 with col3:
-    st.image("deco.png", width=200)
+    st.image("deco.png", width=220)
 
 
 # ---------- BIENVENIDA ----------
 st.markdown("""
 <div style="text-align: center; max-width: 700px; margin: auto;">
     <h2>¡Bienvenidx a mi repositorio!</h2>
-    <p>
-        Soy Isabella y te presento las apps que he desarrollado en estos últimos meses 
+    <h3>
+        Aquí te presento las apps que he desarrollado en estos últimos meses 
         con herramientas de IA.
-    </p>
-    <p>
+    </h3>
+    <h5>
         Puedes hacer clic en cada imagen para explorar cada proyecto.
-    </p>
+    </h5>
 </div>
 """, unsafe_allow_html=True)
 
