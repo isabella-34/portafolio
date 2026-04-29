@@ -73,6 +73,7 @@ with col2:
     st.markdown("""
     <div style="text-align: center; max-width: 700px; margin: auto;">
         <h2>¡Bienvenidx a mi repositorio!</h2></div>
+    """, unsafe_allow_html=True)
 
 with col3:
     st.image("deco.png", width=220)
