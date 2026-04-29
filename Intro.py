@@ -97,10 +97,10 @@ st.markdown("""
     <h5>
         Puedes hacer clic en cada imagen para explorar cada proyecto.
     </h5>
-    st.image("deco.png", width=220)
+    
 </div>
 """, unsafe_allow_html=True)
-
+st.image("deco.png", width=220)
 
 # ---------- APPS ----------
 apps = [
