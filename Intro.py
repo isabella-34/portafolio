@@ -72,7 +72,7 @@ with col1:
 
 with col2:
     st.markdown("## ¡Bienvenidx a mi repositorio!")
-    st.subtitle("""
+    st.subheader("""
     Soy Isabella y te presento las apps que he desarrollado en estos últimos meses con herramientas de IA.
     """)
     st.write("""
