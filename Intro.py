@@ -82,7 +82,6 @@ with col3:
 # ---------- BIENVENIDA ----------
 st.markdown("""
 <div style="text-align: center; max-width: 700px; margin: auto;">
-    #<h2>¡Bienvenidx a mi repositorio!</h2>
     <h3>
         Aquí te presento las apps que he desarrollado en estos últimos meses 
         con herramientas de IA.
