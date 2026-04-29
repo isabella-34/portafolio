@@ -1,6 +1,17 @@
 import streamlit as st
 from PIL import Image
+import base64
+import os
 
+def get_base64(img_file):
+    with open(img_file, "rb") as f:
+        return base64.b64encode(f.read()).decode()
+
+def get_img_tag(img_path):
+    ext = os.path.splitext(img_path)[-1].replace(".", "")
+    base64_img = get_base64(img_path)
+    return f'<img src="data:image/{ext};base64,{base64_img}" width="110">'
+    
 st.set_page_config(layout="wide")
 
 # ---------- CSS ----------
@@ -113,7 +124,7 @@ for i in range(rows):
                 st.markdown(f"""
                 <div class="portfolio-item center">
                     <a href="{app['url']}" target="_blank">
-                        <img src="{app['img']}" width="110">
+                        {get_img_tag(app['img'])}
                         <p>{app['titulo']}</p>
                     </a>
                 </div>
