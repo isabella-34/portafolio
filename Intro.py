@@ -54,26 +54,26 @@ a {
 col1, col2, col3 = st.columns([1,2,1])
 
 with col1:
-    st.image("logo1.png", width=120)
+    st.image("OIG2.jpg", width=120)
 
 with col2:
     st.markdown("<div class='title'>PORTAFOLIO DE APPS</div>", unsafe_allow_html=True)
     st.markdown("<div class='subtitle'>Interfaces Multimodales<br>2026-1</div>", unsafe_allow_html=True)
 
 with col3:
-    st.image("logo2.png", width=120)
+    st.image("OIG2.jpg", width=120)
 
 
 # ---------- BIENVENIDA ----------
 col1, col2 = st.columns([1,2])
 
 with col1:
-    st.image("perfil.png", width=220)
+    st.image("OIG3.jpg", width=220)
 
 with col2:
     st.markdown("## ¡Bienvenidx a mi repositorio!")
     st.write("""
-    Soy Isabella Molina y te presento las apps que he desarrollado en estos últimos meses con herramientas de IA.
+    Soy Isabella y te presento las apps que he desarrollado en estos últimos meses con herramientas de IA.
     
     Puedes hacer clic en cada imagen para explorar cada proyecto.
     """)
