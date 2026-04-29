@@ -1,87 +1,119 @@
 import streamlit as st
 from PIL import Image
-st.title("Aplicaciones de Inteligencia Artificial.")
 
-with st.sidebar:
-  st.subheader("Aplicaciones con Inteligencia Artificial.")
-  parrafo = (
-    "La inteligencia artificial permite mejorar la toma de decisiones con el uso de datos, "
-    "automatizar tareas rutinarias y proporcionar análisis avanzados en tiempo real, lo que "
-    "resulta en una mayor eficiencia y precisión en diversos campos."
-  )
-  st.write(parrafo)
+st.set_page_config(layout="wide")
 
-url_ia="https://sites.google.com/view/aplicacionesdeia/inicio"
-st.subheader("En el siguiente enlace puedes encontrar páginas y ejercicios prácticos")
-st.write(f"Enlace para páginas y ejercicios: [Enlace]({url_ia})")
-col1, col2, col3 = st.columns(3)
+# ---------- CSS ----------
+st.markdown("""
+<style>
+
+/* Centrar todo */
+.block-container {
+    padding-top: 2rem;
+}
+
+/* Imágenes redondas + hover */
+.portfolio-item img {
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+.portfolio-item img:hover {
+    transform: scale(1.1);
+}
+
+/* Quitar subrayado de links */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Texto centrado */
+.center {
+    text-align: center;
+}
+
+/* Títulos */
+.title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+</style>
+""", unsafe_allow_html=True)
+
+
+# ---------- HEADER ----------
+col1, col2, col3 = st.columns([1,2,1])
 
 with col1:
- 
- st.subheader("Conversión de texto a voz")
- image = Image.open('txt_to_audio2.png')
- st.image(image, width=190)
- st.write("En la siguiente enlace usaremos una de las aplicaciones de Inteligencia Artificial") 
- url = "https://imultimod.streamlit.app/"
- st.write(f"Texto a voz: [Enlace]({url})")
+    st.image("logo1.png", width=120)
 
- st.subheader("Reconocimiento de Objetos")
- image = Image.open('txt_to_audio.png')
- st.image(image, width=200)
- st.write("En la siguiente enlace veremos como se detectan objetos en Imágenes.") 
- url = "https://yolov5cmc.streamlit.app/"
- st.write(f"YOLO: [Enlace]({url})")
+with col2:
+    st.markdown("<div class='title'>PORTAFOLIO DE APPS</div>", unsafe_allow_html=True)
+    st.markdown("<div class='subtitle'>Interfaces Multimodales<br>2026-1</div>", unsafe_allow_html=True)
 
- st.subheader("Entrenando Modelos")
- image = Image.open('OIG5.jpg')
- st.image(image, width=200)
- st.write("En la siguiente enlace veremos como puedes usar tu modelo entrenado.") 
- url = "https://xn3pg24ztuv6fdiqon8qn3.streamlit.app/"
- st.write(f"YOLO: [Enlace]({url})")
-
-with col2: 
- st.subheader("Conversión de voz a texto")
- image = Image.open('OIG8.jpg')
- st.image(image, width=200)
- st.write("En la siguiente veremos una aplicación que usa la conversión de voz a texto.") 
- url = "https://traductorw.streamlit.app/"
- st.write(f"Voz a texto: [Enlace]({url})")
-
- st.subheader("Análisis de Datos")
- image = Image.open('data_analisis.png')
- st.image(image, width=190)
- st.write("En la siguiente enlace veremos como se pueden analizar datos usando agentes.") 
- url = "https://dataagente.streamlit.app/"
- st.write(f"Datos: [Enlace]({url})")
-
- st.subheader("Trasnscriptor Audio y Video")
- image = Image.open('OIG3.jpg')
- st.image(image, width=200)
- st.write("En la siguiente enlace veremos como realizamos transcripciones de audio/video.") 
- url = "https://transcript-whisper.streamlit.app/"
- st.write(f"Transcriptor: [Enlace]({url})")
+with col3:
+    st.image("logo2.png", width=120)
 
 
-with col3: 
- st.subheader("Generación en Contexto")
- image = Image.open('Chat_pdf.png')
- st.image(image, width=190)
- st.write("En la siguiente veremos una aplicación que usa RAG a partir de un documento (PDF).") 
- url = "https://chatpdf-cc.streamlit.app/"
- st.write(f"RAG: [Enlace]({url})")
+# ---------- BIENVENIDA ----------
+col1, col2 = st.columns([1,2])
 
- st.subheader("Análisis de Imagen")
- image = Image.open('OIG4.jpg')
- st.image(image, width=200)
- st.write("En la siguiente enlace veremos la capacidad de análisis en Imágenes.") 
- url = "https://vision2-gpt4o.streamlit.app/"
- st.write(f"Vision: [Enlace]({url})")
- 
- st.subheader("Sistema Ciberfísico")
- image = Image.open('OIG6.jpg')
- st.image(image, width=200)
- st.write("En la siguiente enlace veremos la capacidad de interacción con el mundo físico.") 
- url = "https://vision2-gpt4o.streamlit.app/"
- st.write(f"Vision: [Enlace]({url})")
+with col1:
+    st.image("perfil.png", width=220)
+
+with col2:
+    st.markdown("## ¡Bienvenidx a mi repositorio!")
+    st.write("""
+    Soy Isabella Molina y te presento las apps que he desarrollado en estos últimos meses con herramientas de IA.
+    
+    Puedes hacer clic en cada imagen para explorar cada proyecto.
+    """)
 
 
+# ---------- APPS ----------
+apps = [
+    {"img": "txt_to_audio2.png", "titulo": "Texto a Voz", "url": "https://imultimod.streamlit.app/"},
+    {"img": "OIG8.jpg", "titulo": "Voz a Texto", "url": "https://traductorw.streamlit.app/"},
+    {"img": "txt_to_audio.png", "titulo": "YOLO", "url": "https://yolov5cmc.streamlit.app/"},
+    {"img": "data_analisis.png", "titulo": "Análisis de Datos", "url": "https://dataagente.streamlit.app/"},
+    {"img": "Chat_pdf.png", "titulo": "RAG", "url": "https://chatpdf-cc.streamlit.app/"},
+    {"img": "OIG4.jpg", "titulo": "Visión", "url": "https://vision2-gpt4o.streamlit.app/"},
+    {"img": "OIG3.jpg", "titulo": "Transcriptor", "url": "https://transcript-whisper.streamlit.app/"},
+    {"img": "OIG5.jpg", "titulo": "Modelos", "url": "https://xn3pg24ztuv6fdiqon8qn3.streamlit.app/"},
+    {"img": "OIG6.jpg", "titulo": "Sistema Físico", "url": "https://vision2-gpt4o.streamlit.app/"}
+]
+
+
+# ---------- GRID ----------
+import math
+
+cols_per_row = 5
+rows = math.ceil(len(apps) / cols_per_row)
+
+for i in range(rows):
+    cols = st.columns(cols_per_row)
+    
+    for j in range(cols_per_row):
+        index = i * cols_per_row + j
+        
+        if index < len(apps):
+            app = apps[index]
+            
+            with cols[j]:
+                st.markdown(f"""
+                <div class="portfolio-item center">
+                    <a href="{app['url']}" target="_blank">
+                        <img src="{app['img']}" width="110">
+                        <p>{app['titulo']}</p>
+                    </a>
+                </div>
+                """, unsafe_allow_html=True)
