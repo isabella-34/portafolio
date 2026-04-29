@@ -100,7 +100,11 @@ st.markdown("""
     
 </div>
 """, unsafe_allow_html=True)
-st.image("deco.png", width=220)
+st.markdown("""
+<div style="text-align: center;">
+    <img src="deco.png" width="120">
+</div>
+""", unsafe_allow_html=True)
 
 # ---------- APPS ----------
 apps = [
