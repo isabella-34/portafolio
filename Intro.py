@@ -72,9 +72,10 @@ with col1:
 
 with col2:
     st.markdown("## ¡Bienvenidx a mi repositorio!")
-    st.write("""
+    st.subtitle("""
     Soy Isabella y te presento las apps que he desarrollado en estos últimos meses con herramientas de IA.
-    
+    """)
+    st.write("""
     Puedes hacer clic en cada imagen para explorar cada proyecto.
     """)
 
