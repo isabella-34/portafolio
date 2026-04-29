@@ -76,19 +76,19 @@ with col3:
 
 
 # ---------- BIENVENIDA ----------
-#col1, col2 = st.columns([1,2])
+col1, col2 = st.columns([1,2])
 
-#with col1:
+with col1:
+    st.markdown("## ¡Bienvenidx a mi repositorio!")
     #st.image("OIG3.jpg", width=220)
 
-#with col2:
-st.markdown("## ¡Bienvenidx a mi repositorio!")
-st.subheader("""
-Soy Isabella y te presento las apps que he desarrollado en estos últimos meses con herramientas de IA.
-""")
-st.write("""
-Puedes hacer clic en cada imagen para explorar cada proyecto.
-""")
+with col2:
+    st.subheader("""
+    Soy Isabella y te presento las apps que he desarrollado en estos últimos meses con herramientas de IA.
+    """)
+    st.write("""
+    Puedes hacer clic en cada imagen para explorar cada proyecto.
+    """)
 
 
 # ---------- APPS ----------
