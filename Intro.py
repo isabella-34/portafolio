@@ -65,14 +65,14 @@ a {
 col1, col2, col3 = st.columns([1,2,1])
 
 with col1:
-    st.image("OIG2.jpg", width=120)
+    st.image("OIG2.jpg", use_container_width=True)
 
 with col2:
     st.markdown("<div class='title'>PORTAFOLIO DE APPS</div>", unsafe_allow_html=True)
     st.markdown("<div class='subtitle'>Interfaces Multimodales<br>2026-1</div>", unsafe_allow_html=True)
 
 with col3:
-    st.image("OIG2.jpg", width=120)
+    st.image("OIG2.jpg", use_container_width=True)
 
 
 # ---------- BIENVENIDA ----------
