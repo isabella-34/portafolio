@@ -79,7 +79,7 @@ with col3:
 col1, col2 = st.columns([1,2])
 
 with col1:
-    st.image("OIG3.jpg", width=220)
+    st.image("perfil.png", width=220)
 
 with col2:
     st.markdown("## ¡Bienvenidx a mi repositorio!")
