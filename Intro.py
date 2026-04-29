@@ -100,11 +100,11 @@ st.markdown("""
     
 </div>
 """, unsafe_allow_html=True)
-st.markdown("""
-<div style="text-align: center;">
-    <img src="deco.png" width="120">
-</div>
-""", unsafe_allow_html=True)
+
+col1, col2, col3 = st.columns([1,2,1])
+
+with col2:
+    st.image("deco.png", use_container_width=True)
 
 # ---------- APPS ----------
 apps = [
