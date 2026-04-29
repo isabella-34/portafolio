@@ -12,7 +12,15 @@ def get_img_tag(img_path):
     base64_img = get_base64(img_path)
     return f'<img src="data:image/{ext};base64,{base64_img}" width="110">'
     
-st.set_page_config(layout="centered")
+st.set_page_config(layout="wide")
+st.markdown("""
+<style>
+.block-container {
+    max-width: 900px;
+    margin: auto;
+}
+</style>
+""", unsafe_allow_html=True)
 
 # ---------- CSS ----------
 st.markdown("""
