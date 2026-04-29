@@ -76,19 +76,18 @@ with col3:
 
 
 # ---------- BIENVENIDA ----------
-col1, col2 = st.columns([1,2])
-
-with col1:
-    st.image("perfil.png", width=220)
-
-with col2:
-    st.markdown("## ¡Bienvenidx a mi repositorio!")
-    st.subheader("""
-    Soy Isabella y te presento las apps que he desarrollado en estos últimos meses con herramientas de IA.
-    """)
-    st.write("""
-    Puedes hacer clic en cada imagen para explorar cada proyecto.
-    """)
+st.markdown("""
+<div style="text-align: center; max-width: 700px; margin: auto;">
+    <h2>¡Bienvenidx a mi repositorio!</h2>
+    <p>
+        Soy Isabella y te presento las apps que he desarrollado en estos últimos meses 
+        con herramientas de IA.
+    </p>
+    <p>
+        Puedes hacer clic en cada imagen para explorar cada proyecto.
+    </p>
+</div>
+""", unsafe_allow_html=True)
 
 
 # ---------- APPS ----------
