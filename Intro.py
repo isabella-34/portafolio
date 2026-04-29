@@ -82,13 +82,13 @@ with col3:
     #st.image("OIG3.jpg", width=220)
 
 #with col2:
-    st.markdown("## ¡Bienvenidx a mi repositorio!")
-    st.subheader("""
-    Soy Isabella y te presento las apps que he desarrollado en estos últimos meses con herramientas de IA.
-    """)
-    st.write("""
-    Puedes hacer clic en cada imagen para explorar cada proyecto.
-    """)
+st.markdown("## ¡Bienvenidx a mi repositorio!")
+st.subheader("""
+Soy Isabella y te presento las apps que he desarrollado en estos últimos meses con herramientas de IA.
+""")
+st.write("""
+Puedes hacer clic en cada imagen para explorar cada proyecto.
+""")
 
 
 # ---------- APPS ----------
