@@ -70,6 +70,9 @@ with col1:
 with col2:
     st.markdown("<div class='title'>PORTAFOLIO DE APPS</div>", unsafe_allow_html=True)
     st.markdown("<div class='subtitle'>Interfaces Multimodales<br>2026-1</div>", unsafe_allow_html=True)
+    st.markdown("""
+    <div style="text-align: center; max-width: 700px; margin: auto;">
+        <h2>¡Bienvenidx a mi repositorio!</h2></div>
 
 with col3:
     st.image("deco.png", width=220)
@@ -78,7 +81,7 @@ with col3:
 # ---------- BIENVENIDA ----------
 st.markdown("""
 <div style="text-align: center; max-width: 700px; margin: auto;">
-    <h2>¡Bienvenidx a mi repositorio!</h2>
+    #<h2>¡Bienvenidx a mi repositorio!</h2>
     <h3>
         Aquí te presento las apps que he desarrollado en estos últimos meses 
         con herramientas de IA.
