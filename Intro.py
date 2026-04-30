@@ -115,7 +115,7 @@ apps = [
     {"img": "star3.jpg", "titulo": "Dígitos a mano", "url": "https://hand-wr.streamlit.app/"},
     {"img": "star2.jpg", "titulo": "Textos LSTM", "url": "https://lstmnlp.streamlit.app/"},
     {"img": "star1.jpg", "titulo": "Rec. óptico + Audio", "url": "https://ocr-audio-1.streamlit.app/"},
-    {"img": "col1.jpg", "titulo": "Rec. óptico básico", "url": "https://rec-caracteres.streamlit.app/"},
+    {"img": "star3.jpg", "titulo": "Rec. óptico básico", "url": "https://rec-caracteres.streamlit.app/"},
     {"img": "obj2.jpg", "titulo": "Lector MQTT", "url": "https://lector-mqtt.streamlit.app/"},
     {"img": "obj3.jpg", "titulo": "Control MQTT", "url": "https://sendinput-mqtt.streamlit.app/"},
     {"img": "obj2.jpg", "titulo": "Análisis de sentimiento", "url": "https://sentimientooo.streamlit.app/"},
@@ -123,9 +123,9 @@ apps = [
     {"img": "col1.jpg", "titulo": "TF-IDF Español", "url": "https://tdf--espanol.streamlit.app/"},
     {"img": "star3.jpg", "titulo": "TF-IDF Inglés", "url": "https://tf-idff.streamlit.app/"},
     {"img": "star1.jpg", "titulo": "Texto a voz", "url": "https://textovozcopia.streamlit.app/"},
-    {"img": "deco.png", "titulo": "Rec. de gestos", "url": "https://gestosss.streamlit.app/"},
-    {"img": "deco.png", "titulo": "Traductor", "url": "https://traductorrr.streamlit.app/"},
-    {"img": "star1.jpg", "titulo": "Análisis de imagen", "url": "https://visionapppp.streamlit.app/"},
+    {"img": "star1.jpg", "titulo": "Rec. de gestos", "url": "https://gestosss.streamlit.app/"},
+    {"img": "star3.jpg", "titulo": "Traductor", "url": "https://traductorrr.streamlit.app/"},
+    {"img": "obj2.jpg", "titulo": "Análisis de imagen", "url": "https://visionapppp.streamlit.app/"},
     {"img": "star2.jpg", "titulo": "Wordcloud", "url": "https://wordclouddd.streamlit.app/"},
     {"img": "col1.jpg", "titulo": "Detección objetos", "url": "https://yolov5v.streamlit.app/"}
 ]
