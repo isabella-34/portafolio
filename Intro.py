@@ -118,7 +118,7 @@ apps = [
     {"img": "deco.png", "titulo": "Rec. óptico básico", "url": "https://rec-caracteres.streamlit.app/"},
     {"img": "deco.png", "titulo": "Lector MQTT", "url": "https://lector-mqtt.streamlit.app/"},
     {"img": "deco.png", "titulo": "Control MQTT", "url": "https://sendinput-mqtt.streamlit.app/"},
-    {"img": "OIG6.jpg", "titulo": "Sistema Físico", "url": "https://vision2-gpt4o.streamlit.app/"},
+    {"img": "deco.png", "titulo": "Análisis de sentimiento", "url": "https://sentimientooo.streamlit.app/"},
     {"img": "OIG6.jpg", "titulo": "Sistema Físico", "url": "https://vision2-gpt4o.streamlit.app/"},
     {"img": "OIG6.jpg", "titulo": "Sistema Físico", "url": "https://vision2-gpt4o.streamlit.app/"},
     {"img": "OIG6.jpg", "titulo": "Sistema Físico", "url": "https://vision2-gpt4o.streamlit.app/"},
