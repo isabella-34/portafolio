@@ -122,11 +122,11 @@ apps = [
     {"img": "obj3.jpg", "titulo": "Tablerito", "url": "https://tableritooo.streamlit.app/"},
     {"img": "col1.jpg", "titulo": "TF-IDF Español", "url": "https://tdf--espanol.streamlit.app/"},
     {"img": "deco.png", "titulo": "TF-IDF Inglés", "url": "https://tf-idff.streamlit.app/"},
-    {"img": "deco.png", "titulo": "Texto a voz", "url": "https://textovozcopia.streamlit.app/"},
+    {"img": "star1.jpg", "titulo": "Texto a voz", "url": "https://textovozcopia.streamlit.app/"},
     {"img": "deco.png", "titulo": "Rec. de gestos", "url": "https://gestosss.streamlit.app/"},
     {"img": "deco.png", "titulo": "Traductor", "url": "https://traductorrr.streamlit.app/"},
     {"img": "star1.jpg", "titulo": "Análisis de imagen", "url": "https://visionapppp.streamlit.app/"},
-    {"img": "deco.png", "titulo": "Wordcloud", "url": "https://wordclouddd.streamlit.app/"},
+    {"img": "star2.jpg", "titulo": "Wordcloud", "url": "https://wordclouddd.streamlit.app/"},
     {"img": "col1.jpg", "titulo": "Detección objetos", "url": "https://yolov5v.streamlit.app/"}
 ]
 
