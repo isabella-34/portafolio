@@ -120,7 +120,7 @@ apps = [
     {"img": "deco.png", "titulo": "Control MQTT", "url": "https://sendinput-mqtt.streamlit.app/"},
     {"img": "deco.png", "titulo": "Análisis de sentimiento", "url": "https://sentimientooo.streamlit.app/"},
     {"img": "deco.png", "titulo": "Tablerito", "url": "https://tableritooo.streamlit.app/"},
-    {"img": "OIG6.jpg", "titulo": "Sistema Físico", "url": "https://vision2-gpt4o.streamlit.app/"},
+    {"img": "deco.png", "titulo": "TF-IDF Español", "url": "https://tdf--espanol.streamlit.app/"},
     {"img": "OIG6.jpg", "titulo": "Sistema Físico", "url": "https://vision2-gpt4o.streamlit.app/"},
     {"img": "OIG6.jpg", "titulo": "Sistema Físico", "url": "https://vision2-gpt4o.streamlit.app/"},
     {"img": "OIG6.jpg", "titulo": "Sistema Físico", "url": "https://vision2-gpt4o.streamlit.app/"},
