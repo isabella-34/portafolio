@@ -108,26 +108,26 @@ with col2:
 
 # ---------- APPS ----------
 apps = [
-    {"img": "deco.png", "titulo": "Mi primera app", "url": "https://multimodal1-app1.streamlit.app/"},
-    {"img": "deco.png", "titulo": "Análisis de PDF", "url": "https://chat-pdff.streamlit.app/"},
-    {"img": "voz.jpg", "titulo": "Control por voz", "url": "https://voice---control.streamlit.app/"},
-    {"img": "deco.png", "titulo": "Análisis de dibujo", "url": "https://draw-recog.streamlit.app/"},
-    {"img": "deco.png", "titulo": "Dígitos a mano", "url": "https://hand-wr.streamlit.app/"},
-    {"img": "deco.png", "titulo": "Textos LSTM", "url": "https://lstmnlp.streamlit.app/"},
-    {"img": "deco.png", "titulo": "Rec. óptico + Audio", "url": "https://ocr-audio-1.streamlit.app/"},
+    {"img": "col1.jpg", "titulo": "Mi primera app", "url": "https://multimodal1-app1.streamlit.app/"},
+    {"img": "obj2.jpg", "titulo": "Análisis de PDF", "url": "https://chat-pdff.streamlit.app/"},
+    {"img": "obj3.jpg", "titulo": "Control por voz", "url": "https://voice---control.streamlit.app/"},
+    {"img": "star1.jpg", "titulo": "Análisis de dibujo", "url": "https://draw-recog.streamlit.app/"},
+    {"img": "star3.jpg", "titulo": "Dígitos a mano", "url": "https://hand-wr.streamlit.app/"},
+    {"img": "star2.jpg", "titulo": "Textos LSTM", "url": "https://lstmnlp.streamlit.app/"},
+    {"img": "star1.jpg", "titulo": "Rec. óptico + Audio", "url": "https://ocr-audio-1.streamlit.app/"},
     {"img": "deco.png", "titulo": "Rec. óptico básico", "url": "https://rec-caracteres.streamlit.app/"},
     {"img": "deco.png", "titulo": "Lector MQTT", "url": "https://lector-mqtt.streamlit.app/"},
     {"img": "deco.png", "titulo": "Control MQTT", "url": "https://sendinput-mqtt.streamlit.app/"},
-    {"img": "deco.png", "titulo": "Análisis de sentimiento", "url": "https://sentimientooo.streamlit.app/"},
+    {"img": "col1.jpg", "titulo": "Análisis de sentimiento", "url": "https://sentimientooo.streamlit.app/"},
     {"img": "deco.png", "titulo": "Tablerito", "url": "https://tableritooo.streamlit.app/"},
     {"img": "deco.png", "titulo": "TF-IDF Español", "url": "https://tdf--espanol.streamlit.app/"},
     {"img": "deco.png", "titulo": "TF-IDF Inglés", "url": "https://tf-idff.streamlit.app/"},
     {"img": "deco.png", "titulo": "Texto a voz", "url": "https://textovozcopia.streamlit.app/"},
     {"img": "deco.png", "titulo": "Rec. de gestos", "url": "https://gestosss.streamlit.app/"},
     {"img": "deco.png", "titulo": "Traductor", "url": "https://traductorrr.streamlit.app/"},
-    {"img": "deco.png", "titulo": "Análisis de imagen", "url": "https://visionapppp.streamlit.app/"},
+    {"img": "star1.jpg", "titulo": "Análisis de imagen", "url": "https://visionapppp.streamlit.app/"},
     {"img": "deco.png", "titulo": "Wordcloud", "url": "https://wordclouddd.streamlit.app/"},
-    {"img": "deco.png", "titulo": "Detección objetos", "url": "https://yolov5v.streamlit.app/"}
+    {"img": "col1.jpg", "titulo": "Detección objetos", "url": "https://yolov5v.streamlit.app/"}
 ]
 
 
