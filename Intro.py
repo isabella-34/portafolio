@@ -108,6 +108,7 @@ with col2:
 
 # ---------- APPS ----------
 apps = [
+    {"img": "deco.png", "titulo": "Mi primera app", "url": "https://multimodal1-app1.streamlit.app/"},
     {"img": "deco.png", "titulo": "Análisis de PDF", "url": "https://chat-pdff.streamlit.app/"},
     {"img": "voz.jpg", "titulo": "Control por voz", "url": "https://voice---control.streamlit.app/"},
     {"img": "deco.png", "titulo": "Análisis de dibujo", "url": "https://draw-recog.streamlit.app/"},
