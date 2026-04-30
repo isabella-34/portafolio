@@ -109,7 +109,7 @@ with col2:
 # ---------- APPS ----------
 apps = [
     {"img": "deco.png", "titulo": "Análisis de PDF", "url": "https://chat-pdff.streamlit.app/"},
-    {"img": "OIG8.jpg", "titulo": "Voz a Texto", "url": "https://traductorw.streamlit.app/"},
+    {"img": "voz.jpg", "titulo": "Control por voz", "url": "https://voice---control.streamlit.app/"},
     {"img": "txt_to_audio.png", "titulo": "YOLO", "url": "https://yolov5cmc.streamlit.app/"},
     {"img": "data_analisis.png", "titulo": "Análisis de Datos", "url": "https://dataagente.streamlit.app/"},
     {"img": "Chat_pdf.png", "titulo": "RAG", "url": "https://chatpdf-cc.streamlit.app/"},
