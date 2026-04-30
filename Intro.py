@@ -95,7 +95,7 @@ st.markdown("""
         con herramientas de IA.
     </h3>
     <h5>
-        Puedes hacer clic en las estrellas para explorar cada proyecto.
+        Puedes hacer clic en las estrellas para explorar cada proyecto. ✮⋆˙
     </h5>
     
 </div>
