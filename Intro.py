@@ -112,7 +112,7 @@ apps = [
     {"img": "voz.jpg", "titulo": "Control por voz", "url": "https://voice---control.streamlit.app/"},
     {"img": "deco.png", "titulo": "Análisis de dibujo", "url": "https://draw-recog.streamlit.app/"},
     {"img": "deco.png", "titulo": "Dígitos a mano", "url": "https://hand-wr.streamlit.app/"},
-    {"img": "Chat_pdf.png", "titulo": "RAG", "url": "https://chatpdf-cc.streamlit.app/"},
+    {"img": "deco.png", "titulo": "Textos LSTM", "url": "https://lstmnlp.streamlit.app/"},
     {"img": "OIG4.jpg", "titulo": "Visión", "url": "https://vision2-gpt4o.streamlit.app/"},
     {"img": "OIG3.jpg", "titulo": "Transcriptor", "url": "https://transcript-whisper.streamlit.app/"},
     {"img": "OIG5.jpg", "titulo": "Modelos", "url": "https://xn3pg24ztuv6fdiqon8qn3.streamlit.app/"},
