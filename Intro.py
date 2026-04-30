@@ -77,7 +77,7 @@ with col1:
 
 with col2:
     st.markdown("<div class='title'>PORTAFOLIO DE APPS</div>", unsafe_allow_html=True)
-    st.markdown("<div class='subtitle'>Interfaces Multimodales<br>2026-1</div>", unsafe_allow_html=True)
+    st.markdown("<div class='subtitle'>Isabella Molina ⋆ Interfaces Multimodales<br>2026-1</div>", unsafe_allow_html=True)
     st.markdown("""
     <div style="text-align: center; max-width: 700px; margin: auto;">
         <h2>¡Bienvenidx a mi repositorio!</h2></div>
