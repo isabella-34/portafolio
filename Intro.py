@@ -126,7 +126,7 @@ apps = [
     {"img": "deco.png", "titulo": "Rec. de gestos", "url": "https://gestosss.streamlit.app/"},
     {"img": "deco.png", "titulo": "Traductor", "url": "https://traductorrr.streamlit.app/"},
     {"img": "deco.png", "titulo": "Análisis de imagen", "url": "https://visionapppp.streamlit.app/"},
-    {"img": "OIG6.jpg", "titulo": "Sistema Físico", "url": "https://vision2-gpt4o.streamlit.app/"},
+    {"img": "deco.png", "titulo": "Wordcloud", "url": "https://wordclouddd.streamlit.app/"},
     {"img": "OIG6.jpg", "titulo": "Sistema Físico", "url": "https://vision2-gpt4o.streamlit.app/"}
 ]
 
