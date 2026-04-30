@@ -121,7 +121,7 @@ apps = [
     {"img": "deco.png", "titulo": "Análisis de sentimiento", "url": "https://sentimientooo.streamlit.app/"},
     {"img": "deco.png", "titulo": "Tablerito", "url": "https://tableritooo.streamlit.app/"},
     {"img": "deco.png", "titulo": "TF-IDF Español", "url": "https://tdf--espanol.streamlit.app/"},
-    {"img": "OIG6.jpg", "titulo": "Sistema Físico", "url": "https://vision2-gpt4o.streamlit.app/"},
+    {"img": "deco.png", "titulo": "Texto a voz", "url": "https://textovozcopia.streamlit.app/"},
     {"img": "OIG6.jpg", "titulo": "Sistema Físico", "url": "https://vision2-gpt4o.streamlit.app/"},
     {"img": "OIG6.jpg", "titulo": "Sistema Físico", "url": "https://vision2-gpt4o.streamlit.app/"},
 ]
